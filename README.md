@@ -49,10 +49,10 @@ transport-website/ ├── app/ │ ├── services/ │ │ └── page
 ## 📦 Installation & Setup
 ```sh
 # 1️⃣ Clone the repository:
-git clone https://github.com/your-username/transport-website.git
+git clone https://github.com/rahulpatel51/GlideXpress-Transport-WebApp-.git
 
 # 2️⃣ Navigate to the project directory:
-cd transport-website
+cd GlideXpress-Transport-WebApp
 
 # 3️⃣ Install dependencies:
 npm install
