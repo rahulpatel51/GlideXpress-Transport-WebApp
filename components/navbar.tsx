@@ -44,7 +44,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex md:items-center md:space-x-6 font-bold text-xl">
+        <nav className="text-sm font-medium text-gray-700 transition-colors hover:text-orange-500">
           {navItems.map(({ label, href }) => (
             <Link
               key={label}
