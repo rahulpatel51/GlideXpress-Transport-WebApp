@@ -1,7 +1,7 @@
 import type React from "react";
 import type { Metadata } from "next";
 import { Inter, Roboto, Open_Sans } from "next/font/google";
-import "@/styles/globals.css"; // Ensure this path is correct
+import "@/styles/globals.css"; 
 
 const inter = Inter({
   subsets: ["latin"],
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   description:
     "GlideXpress provides reliable transport and logistics solutions for businesses of all sizes. Road transport, warehousing, international shipping, and express delivery services.",
   icons: {
-    icon: "/favicon.ico",
+    icon: "./favicon.ico",
   },
 };
 
