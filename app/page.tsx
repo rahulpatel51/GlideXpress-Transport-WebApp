@@ -47,7 +47,7 @@ export default function Home() {
                   size="lg"
                   className="border-white bg-transparent text-white hover:bg-white hover:text-blue-900 min-w-[150px]"
                 >
-                  <Link href="/services">How It Works</Link>
+                  <Link href="/services">View Services</Link>
                 </Button>
               </div>
             </div>
