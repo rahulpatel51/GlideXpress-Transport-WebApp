@@ -44,12 +44,12 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex md:items-center md:space-x-6 font-bold text-sm">
+        <nav className="hidden md:flex md:items-center md:space-x-6 text-sm">
           {navItems.map(({ label, href }) => (
             <Link
               key={label}
               href={href}
-              className="text-lg font-medium text-gray-700 transition-colors hover:text-orange-500"
+              className="text-sm font-medium text-gray-700 transition-colors hover:text-orange-500"
             >
               {label}
             </Link>

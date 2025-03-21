@@ -14,7 +14,7 @@ export default function SignupPage() {
     <div className="flex min-h-screen flex-col bg-gradient-to-br from-blue-500 to-indigo-800">
       <Navbar />
 
-      <main className="flex-1 flex items-center justify-center px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+      <main className="flex-1 flex items-center justify-center px-4 sm:px-6 lg:px-8 py-20 md:py-24">
         <div className="relative w-full max-w-md p-6 md:p-8 bg-white/10 backdrop-blur-lg shadow-lg rounded-2xl border border-white/20">
           <div className="text-center">
             <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-blue-200 shadow-md">
@@ -151,4 +151,3 @@ export default function SignupPage() {
     </div>
   )
 }
-
